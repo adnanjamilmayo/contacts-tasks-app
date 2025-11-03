@@ -41,7 +41,7 @@ export function SortControls({
 
   return (
     <div className="flex flex-wrap items-center gap-2">
-      <span className="text-sm font-medium text-slate-600 dark:text-slate-400">
+      <span className="text-xs sm:text-sm font-medium text-slate-600 dark:text-slate-400 whitespace-nowrap">
         Sort by:
       </span>
       {sortFields.map(({ field, label }) => (
@@ -49,7 +49,7 @@ export function SortControls({
           key={field}
           onClick={() => handleSortClick(field)}
           className={cn(
-            "flex items-center gap-1.5 rounded-lg border-2 px-3 py-2 text-sm font-medium transition-all hover:shadow-md active:scale-95 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2",
+            "flex items-center gap-1 sm:gap-1.5 rounded-lg border-2 px-2 py-1.5 sm:px-3 sm:py-2 text-xs sm:text-sm font-medium transition-all hover:shadow-md active:scale-95 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2",
             sortBy === field
               ? "border-blue-500 bg-blue-50 text-blue-700 dark:border-blue-400 dark:bg-blue-950/50 dark:text-blue-300"
               : "border-slate-300 bg-white text-slate-700 dark:border-slate-600 dark:bg-slate-800 dark:text-slate-300"

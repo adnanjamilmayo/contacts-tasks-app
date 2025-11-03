@@ -24,7 +24,7 @@ An Architecture Decision Record is a document that captures an important archite
 
 ## ADR 1: Next.js App Router with Client Components
 
-**Status**: Accepted  
+**Status**: Accepted
 **Date**: 2024  
 **Deciders**: Development Team
 
@@ -74,7 +74,7 @@ Use Next.js 16 with the App Router architecture, implementing the main page as a
 
 ## ADR 2: In-Memory Data Storage
 
-**Status**: Accepted  
+**Status**: Accepted
 **Date**: 2024  
 **Deciders**: Development Team
 
@@ -123,7 +123,7 @@ Use in-memory JavaScript arrays for data storage. Implement API functions that s
 
 ## ADR 3: React Hooks for State Management
 
-**Status**: Accepted  
+**Status**: Accepted
 **Date**: 2024  
 **Deciders**: Development Team
 
@@ -174,7 +174,7 @@ Use React's built-in hooks (useState, useEffect, useMemo, useCallback) for all s
 
 ## ADR 4: Manual Memoization Strategy
 
-**Status**: Accepted  
+**Status**: Accepted
 **Date**: 2024  
 **Deciders**: Development Team
 
@@ -230,7 +230,7 @@ Use `useMemo` for derived state calculations and `useCallback` for stable functi
 
 ## ADR 5: Tailwind CSS for Styling
 
-**Status**: Accepted  
+**Status**: Accepted
 **Date**: 2024  
 **Deciders**: Development Team
 
@@ -282,7 +282,7 @@ Use Tailwind CSS 4 utility-first CSS framework with PostCSS integration.
 
 ## ADR 6: Simulated API Failures
 
-**Status**: Accepted  
+**Status**: Accepted
 **Date**: 2024  
 **Deciders**: Development Team
 
@@ -336,7 +336,7 @@ const delay = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
 
 ## ADR 7: Component Modular Architecture
 
-**Status**: Accepted  
+**Status**: Accepted
 **Date**: 2024  
 **Deciders**: Development Team
 
@@ -389,7 +389,7 @@ Split the main page into focused, reusable components:
 
 ## ADR 8: Jest + Playwright Testing Strategy
 
-**Status**: Accepted  
+**Status**: Accepted
 **Date**: 2024  
 **Deciders**: Development Team
 
@@ -446,7 +446,7 @@ Use Jest for unit and integration tests, Playwright for end-to-end tests.
 
 ## ADR 9: TypeScript Strict Mode
 
-**Status**: Accepted  
+**Status**: Accepted
 **Date**: 2024  
 **Deciders**: Development Team
 
@@ -504,7 +504,7 @@ Enable TypeScript strict mode with all strict checks enabled in `tsconfig.json`.
 
 ## ADR 10: Pagination Over Virtualization
 
-**Status**: Accepted  
+**Status**: Accepted
 **Date**: 2024  
 **Deciders**: Development Team
 

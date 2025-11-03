@@ -16,7 +16,7 @@ export function SearchBar({
   return (
     <div className="group relative">
       <Search
-        className="absolute top-1/2 left-4 h-5 w-5 -translate-y-1/2 text-slate-400 transition-colors group-focus-within:text-blue-600"
+        className="absolute top-1/2 left-3 sm:left-4 h-4 w-4 sm:h-5 sm:w-5 -translate-y-1/2 text-slate-400 transition-colors group-focus-within:text-blue-600"
         aria-hidden="true"
       />
       <input
@@ -24,7 +24,7 @@ export function SearchBar({
         placeholder={placeholder}
         value={value}
         onChange={(e) => onChange(e.target.value)}
-        className="w-full rounded-xl border-2 border-slate-200 bg-white py-4 pr-4 pl-12 shadow-sm transition-all duration-200 focus:border-blue-500 focus:ring-4 focus:ring-blue-500/10 focus:outline-none dark:border-slate-700 dark:bg-slate-800 dark:text-white dark:placeholder-slate-400"
+        className="w-full rounded-xl border-2 border-slate-200 bg-white py-3 pr-10 sm:pr-4 sm:pl-12 pl-10 sm:py-4 text-sm sm:text-base shadow-sm transition-all duration-200 focus:border-blue-500 focus:ring-4 focus:ring-blue-500/10 focus:outline-none dark:border-slate-700 dark:bg-slate-800 dark:text-white dark:placeholder-slate-400"
         aria-label={ariaLabel}
       />
       {value && (
